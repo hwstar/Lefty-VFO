@@ -1,5 +1,5 @@
 # Lefty-VFO
-Lefty Double Conversion Transceiver Motherboard
+Lefty Quad output VFO Motherboard
 
 ![Alt text](VFO_back.jpg)
 
