@@ -1,0 +1,2964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/srodgers/qrp/vfo-dual-si5351-mcu-kicad-6/Rev_X2/vfo-control-mcu.kicad_sch</source>
+    <date>Fri 06 May 2022 07:38:50 AM PDT</date>
+    <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Quad output VFO</title>
+        <company/>
+        <rev>X2</rev>
+        <date/>
+        <source>vfo-control-mcu.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/">
+      <title_block>
+        <title>Quad output VFO</title>
+        <company/>
+        <rev>X2</rev>
+        <date>2022-02-23</date>
+        <source>vfo_top.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/">
+      <title_block>
+        <title>Quad output VFO</title>
+        <company/>
+        <rev>X2</rev>
+        <date/>
+        <source>vfo_clock_gen.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/vfo_top/vfo_power_supply/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fa24/">
+      <title_block>
+        <title>Quad output VFO</title>
+        <company/>
+        <rev>X2</rev>
+        <date/>
+        <source>vfo_power_supply.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/">
+      <title_block>
+        <title>Quad output VFO</title>
+        <company/>
+        <rev>X2</rev>
+        <date/>
+        <source>vfo_mpu.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/vfo_top/I2C_Expander/" tstamps="/00000000-0000-0000-0000-00006145f9c0/150e101e-0688-4d0d-9ed9-4274eacc97e0/">
+      <title_block>
+        <title>Quad output VFO</title>
+        <company/>
+        <rev>X2</rev>
+        <date/>
+        <source>i2c_expander.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C201">
+      <value>470u</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
+      <fields>
+        <field name="PartNumber">800270-477</field>
+      </fields>
+      <libsource lib="custom" part="CP_US" description=""/>
+      <property name="PartNumber" value="800270-477"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>ef0db0ce-f634-46ae-bf56-53d81139ca87</tstamps>
+    </comp>
+    <comp ref="C202">
+      <value>1000p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800239-102</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_C0G_NPO_5%_50V_HS" description=""/>
+      <property name="PartNumber" value="800239-102"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-000061546640</tstamps>
+    </comp>
+    <comp ref="C203">
+      <value>470u</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
+      <fields>
+        <field name="PartNumber">800270-477</field>
+      </fields>
+      <libsource lib="custom" part="CP_US" description=""/>
+      <property name="PartNumber" value="800270-477"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>673caa56-a40b-4aba-982a-8e6356e89cc2</tstamps>
+    </comp>
+    <comp ref="C204">
+      <value>1000p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800239-102</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_C0G_NPO_5%_50V_HS" description=""/>
+      <property name="PartNumber" value="800239-102"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-000061546ddd</tstamps>
+    </comp>
+    <comp ref="C205">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800238-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800238-104"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-000061527645</tstamps>
+    </comp>
+    <comp ref="C206">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800238-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800238-104"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-00006153152a</tstamps>
+    </comp>
+    <comp ref="CR201">
+      <value>S1A</value>
+      <footprint>mods:SMA-SAR</footprint>
+      <fields>
+        <field name="PartNumber">800109-101</field>
+      </fields>
+      <libsource lib="custom" part="DIODE_SCHOTTKY" description=""/>
+      <property name="PartNumber" value="800109-101"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>88fc82c8-5e16-4091-b799-65617766f810</tstamps>
+    </comp>
+    <comp ref="E201">
+      <value>FB0805</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800245-601</field>
+      </fields>
+      <libsource lib="custom" part="FB0805" description=""/>
+      <property name="PartNumber" value="800245-601"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-00006154df84</tstamps>
+    </comp>
+    <comp ref="E202">
+      <value>FB0805</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800245-601</field>
+      </fields>
+      <libsource lib="custom" part="FB0805" description=""/>
+      <property name="PartNumber" value="800245-601"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-00006152a419</tstamps>
+    </comp>
+    <comp ref="E203">
+      <value>FB0805</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800245-601</field>
+      </fields>
+      <libsource lib="custom" part="FB0805" description=""/>
+      <property name="PartNumber" value="800245-601"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-00006154e4f0</tstamps>
+    </comp>
+    <comp ref="E204">
+      <value>FB0805</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800245-601</field>
+      </fields>
+      <libsource lib="custom" part="FB0805" description=""/>
+      <property name="PartNumber" value="800245-601"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-00006152acf8</tstamps>
+    </comp>
+    <comp ref="E205">
+      <value>FB0805</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800245-601</field>
+      </fields>
+      <libsource lib="custom" part="FB0805" description=""/>
+      <property name="PartNumber" value="800245-601"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-00006152b0df</tstamps>
+    </comp>
+    <comp ref="J201">
+      <value>Conn_01x20</value>
+      <footprint>mods:12864_display</footprint>
+      <fields>
+        <field name="PartNumber">800283-020</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x20" description="Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PartNumber" value="800283-020"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-0000616a41bd</tstamps>
+    </comp>
+    <comp ref="J202">
+      <value>CONN2</value>
+      <footprint>mods:JST_B2B_XH_A</footprint>
+      <fields>
+        <field name="PartNumber">800114-102</field>
+      </fields>
+      <libsource lib="custom" part="CONN2" description=""/>
+      <property name="PartNumber" value="800114-102"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-0000615381c3</tstamps>
+    </comp>
+    <comp ref="J203">
+      <value>CONN2</value>
+      <footprint>mods:JST_B2B_XH_A</footprint>
+      <fields>
+        <field name="PartNumber">800114-102</field>
+      </fields>
+      <libsource lib="custom" part="CONN2" description=""/>
+      <property name="PartNumber" value="800114-102"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-00006153c13a</tstamps>
+    </comp>
+    <comp ref="J204">
+      <value>CONN2</value>
+      <footprint>mods:JST_B2B_XH_A</footprint>
+      <fields>
+        <field name="PartNumber">800114-102</field>
+      </fields>
+      <libsource lib="custom" part="CONN2" description=""/>
+      <property name="PartNumber" value="800114-102"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-00006153e718</tstamps>
+    </comp>
+    <comp ref="J205">
+      <value>CONN8</value>
+      <footprint>mods:JST_B8B_XH_A</footprint>
+      <fields>
+        <field name="PartNumber">800114-108</field>
+      </fields>
+      <libsource lib="custom" part="CONN8" description=""/>
+      <property name="PartNumber" value="800114-108"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-00006152588b</tstamps>
+    </comp>
+    <comp ref="MH201">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-000061510321</tstamps>
+    </comp>
+    <comp ref="MH202">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-000061513f71</tstamps>
+    </comp>
+    <comp ref="MH203">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-00006151435a</tstamps>
+    </comp>
+    <comp ref="MH204">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-0000615146bd</tstamps>
+    </comp>
+    <comp ref="Q201">
+      <value>SI2306</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.vishay.com/docs/70209/70209.pdf</datasheet>
+      <fields>
+        <field name="PartNumber">800123-101</field>
+      </fields>
+      <libsource lib="custom" part="SI2306" description="-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23-3"/>
+      <property name="PartNumber" value="800123-101"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-00006152b9a8</tstamps>
+    </comp>
+    <comp ref="Q202">
+      <value>SI2306</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.vishay.com/docs/70209/70209.pdf</datasheet>
+      <fields>
+        <field name="PartNumber">800123-101</field>
+      </fields>
+      <libsource lib="custom" part="SI2306" description="-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23-3"/>
+      <property name="PartNumber" value="800123-101"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-000061552d5d</tstamps>
+    </comp>
+    <comp ref="R201">
+      <value>24</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800248-240</field>
+      </fields>
+      <libsource lib="custom" part="R_US" description=""/>
+      <property name="PartNumber" value="800248-240"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>00000000-0000-0000-0000-00006152ea77</tstamps>
+    </comp>
+    <comp ref="R202">
+      <value>24</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800248-240</field>
+      </fields>
+      <libsource lib="custom" part="R_US" description=""/>
+      <property name="PartNumber" value="800248-240"/>
+      <property name="Sheetname" value="vfo_top"/>
+      <property name="Sheetfile" value="vfo_top.kicad_sch"/>
+      <sheetpath names="/vfo_top/" tstamps="/00000000-0000-0000-0000-00006145f9c0/"/>
+      <tstamps>81bbcde9-9916-4845-93d8-8a69c9a78b32</tstamps>
+    </comp>
+    <comp ref="C301">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>0b615c3b-035a-4e5a-94db-08ead3843ea8</tstamps>
+    </comp>
+    <comp ref="C302">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>5e37f118-3e65-4d19-bb61-a2c67155f68e</tstamps>
+    </comp>
+    <comp ref="C303">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800238-105</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800238-105"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>909ce9f2-7ef4-4c51-8e95-4d4426d23940</tstamps>
+    </comp>
+    <comp ref="C304">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>08b51a68-6d13-42b2-8d1f-863cf79d2a46</tstamps>
+    </comp>
+    <comp ref="C305">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>8e32f6c4-75bb-4d08-96bf-7ee502a15e74</tstamps>
+    </comp>
+    <comp ref="C306">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800238-105</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800238-105"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>52da6fd4-d162-410a-b0c8-9d1c3f598278</tstamps>
+    </comp>
+    <comp ref="C307">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>6841611e-7724-42b3-be73-ec3668ecbac2</tstamps>
+    </comp>
+    <comp ref="C308">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800238-105</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800238-105"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>b1c05901-bb14-4570-9dfa-81517b42ee63</tstamps>
+    </comp>
+    <comp ref="C309">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>433662e2-9763-42dc-8bcf-4364a5830164</tstamps>
+    </comp>
+    <comp ref="C310">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800238-105</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800238-105"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>a7ccea0f-f62b-4113-b725-659e380df9da</tstamps>
+    </comp>
+    <comp ref="C311">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>b066499b-60b6-4a77-ad8f-6752bb5a80e8</tstamps>
+    </comp>
+    <comp ref="C312">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800238-105</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800238-105"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>6658dbe2-6c05-4884-ac52-4e66b57c06f6</tstamps>
+    </comp>
+    <comp ref="C313">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>5df9e07e-b56b-4755-95cf-7fe1166e866c</tstamps>
+    </comp>
+    <comp ref="C314">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800238-105</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800238-105"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>397d1485-1147-4ecb-b1ee-64bfece216d7</tstamps>
+    </comp>
+    <comp ref="C315">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>3c102822-1d68-4ded-8e33-e497501bb165</tstamps>
+    </comp>
+    <comp ref="C316">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>b0587277-067f-47a6-b032-7399f73fa11e</tstamps>
+    </comp>
+    <comp ref="C317">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>09f7d3f9-2809-4736-9608-a520bd3f8dfc</tstamps>
+    </comp>
+    <comp ref="C318">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>5f6907d3-16fc-45c4-887f-ff74cf511eeb</tstamps>
+    </comp>
+    <comp ref="C319">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>f12d2e9f-d77a-4d62-b9b8-bbbed783aaac</tstamps>
+    </comp>
+    <comp ref="C320">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>aff9ebd0-0de0-4c6a-90f7-a1ad0dc8679e</tstamps>
+    </comp>
+    <comp ref="C321">
+      <value>0.01u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800238-103</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800238-103"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>deb273ca-4bf5-4921-b6b0-fbf8253f8beb</tstamps>
+    </comp>
+    <comp ref="C322">
+      <value>0.01u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800238-103</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800238-103"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>74a67d2c-64ad-49d4-bce0-aac2fadd51a4</tstamps>
+    </comp>
+    <comp ref="E301">
+      <value>FB0805</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800245-601</field>
+      </fields>
+      <libsource lib="custom" part="FB0805" description=""/>
+      <property name="PartNumber" value="800245-601"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>fd8d8d7d-cbed-45b1-97b5-0e3f1cabd469</tstamps>
+    </comp>
+    <comp ref="E302">
+      <value>FB0805</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800245-601</field>
+      </fields>
+      <libsource lib="custom" part="FB0805" description=""/>
+      <property name="PartNumber" value="800245-601"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>da5b0ef8-027d-4009-8563-36ce6ca5f08f</tstamps>
+    </comp>
+    <comp ref="E303">
+      <value>FB0805</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800245-601</field>
+      </fields>
+      <libsource lib="custom" part="FB0805" description=""/>
+      <property name="PartNumber" value="800245-601"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>0d29bc2f-53a3-44cc-a61b-70cb354655d1</tstamps>
+    </comp>
+    <comp ref="E304">
+      <value>FB0805</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800245-601</field>
+      </fields>
+      <libsource lib="custom" part="FB0805" description=""/>
+      <property name="PartNumber" value="800245-601"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>4c6dec2f-794a-471c-9019-2774a94f5837</tstamps>
+    </comp>
+    <comp ref="E305">
+      <value>FB0805</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800245-601</field>
+      </fields>
+      <libsource lib="custom" part="FB0805" description=""/>
+      <property name="PartNumber" value="800245-601"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>76d9c041-1b03-498e-b7ff-69068168b560</tstamps>
+    </comp>
+    <comp ref="E306">
+      <value>FB0805</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800245-601</field>
+      </fields>
+      <libsource lib="custom" part="FB0805" description=""/>
+      <property name="PartNumber" value="800245-601"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>2390d26e-8080-4267-beea-2d016ca2df24</tstamps>
+    </comp>
+    <comp ref="J301">
+      <value>CONN_SMA_LAUNCH</value>
+      <footprint>mods:SMA_Launch_Kinghelm_KH-SMA-KE8-G</footprint>
+      <fields>
+        <field name="PartNumber">800233-101</field>
+      </fields>
+      <libsource lib="custom" part="CONN_SMA_LAUNCH" description=""/>
+      <property name="PartNumber" value="800233-101"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>9167d64e-691b-49d2-aa0b-617b235bc81c</tstamps>
+    </comp>
+    <comp ref="J302">
+      <value>CONN_SMA_LAUNCH</value>
+      <footprint>mods:SMA_Launch_Kinghelm_KH-SMA-KE8-G</footprint>
+      <fields>
+        <field name="PartNumber">800233-101</field>
+      </fields>
+      <libsource lib="custom" part="CONN_SMA_LAUNCH" description=""/>
+      <property name="PartNumber" value="800233-101"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>1784935e-5415-4977-8dc0-d830695a634e</tstamps>
+    </comp>
+    <comp ref="J303">
+      <value>CONN_SMA_LAUNCH</value>
+      <footprint>mods:SMA_Launch_Kinghelm_KH-SMA-KE8-G</footprint>
+      <fields>
+        <field name="PartNumber">800233-101</field>
+      </fields>
+      <libsource lib="custom" part="CONN_SMA_LAUNCH" description=""/>
+      <property name="PartNumber" value="800233-101"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>ea9672f0-134d-4634-9ec1-ba501a437ce3</tstamps>
+    </comp>
+    <comp ref="J304">
+      <value>CONN_SMA_LAUNCH</value>
+      <footprint>mods:SMA_Launch_Kinghelm_KH-SMA-KE8-G</footprint>
+      <fields>
+        <field name="PartNumber">800233-101</field>
+      </fields>
+      <libsource lib="custom" part="CONN_SMA_LAUNCH" description=""/>
+      <property name="PartNumber" value="800233-101"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>ea0a3e70-88ce-4b04-aad6-e38919ed390b</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>68</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-680</field>
+      </fields>
+      <libsource lib="custom" part="R_US" description=""/>
+      <property name="PartNumber" value="800235-680"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>44e9c4e1-3ce7-440d-b43b-a3fb55988041</tstamps>
+    </comp>
+    <comp ref="R302">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-101</field>
+      </fields>
+      <libsource lib="custom" part="R_US" description=""/>
+      <property name="PartNumber" value="800235-101"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>15e5a067-5057-40f0-a156-dedc6bc16045</tstamps>
+    </comp>
+    <comp ref="R303">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-330</field>
+      </fields>
+      <libsource lib="custom" part="R_US" description=""/>
+      <property name="PartNumber" value="800235-330"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>74a2084f-beec-4706-bff4-ca518950dd8b</tstamps>
+    </comp>
+    <comp ref="R304">
+      <value>68</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-680</field>
+      </fields>
+      <libsource lib="custom" part="R_US" description=""/>
+      <property name="PartNumber" value="800235-680"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>495c030d-99cb-4fae-8038-03ff51b463f0</tstamps>
+    </comp>
+    <comp ref="R305">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-101</field>
+      </fields>
+      <libsource lib="custom" part="R_US" description=""/>
+      <property name="PartNumber" value="800235-101"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>aa7471a0-2af9-4a44-8aea-84931516a911</tstamps>
+    </comp>
+    <comp ref="R306">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-330</field>
+      </fields>
+      <libsource lib="custom" part="R_US" description=""/>
+      <property name="PartNumber" value="800235-330"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>458c552c-d52f-40b4-8eef-7ff8ec611050</tstamps>
+    </comp>
+    <comp ref="R307">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-330</field>
+      </fields>
+      <libsource lib="custom" part="R_US" description=""/>
+      <property name="PartNumber" value="800235-330"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>64c36fb1-56b0-4c5e-a2b3-7afd6cba5ffa</tstamps>
+    </comp>
+    <comp ref="R308">
+      <value>470K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-474</field>
+      </fields>
+      <libsource lib="custom" part="R_US" description=""/>
+      <property name="PartNumber" value="800235-474"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>78eb5c71-593e-4b7d-aeee-72127c3da07e</tstamps>
+    </comp>
+    <comp ref="R309">
+      <value>470K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-474</field>
+      </fields>
+      <libsource lib="custom" part="R_US" description=""/>
+      <property name="PartNumber" value="800235-474"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>e51296bb-76d7-4544-be53-9b1ed5a100cc</tstamps>
+    </comp>
+    <comp ref="U301">
+      <value>ME6211A33M3G-N</value>
+      <footprint>mods:SOT23-3-SAR-V2</footprint>
+      <fields>
+        <field name="PartNumber">800187-101</field>
+      </fields>
+      <libsource lib="custom" part="ME6211A33M3G-N" description=""/>
+      <property name="PartNumber" value="800187-101"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>e997f4e6-539d-4ac2-96f2-6d59e0b07595</tstamps>
+    </comp>
+    <comp ref="U302">
+      <value>74LVC1G04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="PartNumber">800289-101</field>
+      </fields>
+      <libsource lib="custom" part="74LVC1G04" description="Single Schmitt NOT Gate, Low-Voltage CMOS"/>
+      <property name="PartNumber" value="800289-101"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>4879341c-0762-4dcf-ae6e-ebf1e265ccfb</tstamps>
+    </comp>
+    <comp ref="U303">
+      <value>Si5351</value>
+      <footprint>mods:MSOP-10-SAR</footprint>
+      <fields>
+        <field name="PartNumber">800288-101</field>
+      </fields>
+      <libsource lib="custom" part="Si5351" description=""/>
+      <property name="PartNumber" value="800288-101"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>a5e9a97f-8fb2-46cf-ae7c-53286ce3cf15</tstamps>
+    </comp>
+    <comp ref="U304">
+      <value>ME6211A33M3G-N</value>
+      <footprint>mods:SOT23-3-SAR-V2</footprint>
+      <fields>
+        <field name="PartNumber">800187-101</field>
+      </fields>
+      <libsource lib="custom" part="ME6211A33M3G-N" description=""/>
+      <property name="PartNumber" value="800187-101"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>44af4314-3b7f-4f07-9621-e543b6854ed2</tstamps>
+    </comp>
+    <comp ref="U305">
+      <value>ME6211A33M3G-N</value>
+      <footprint>mods:SOT23-3-SAR-V2</footprint>
+      <fields>
+        <field name="PartNumber">800187-101</field>
+      </fields>
+      <libsource lib="custom" part="ME6211A33M3G-N" description=""/>
+      <property name="PartNumber" value="800187-101"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>8e4d2342-f306-4043-b211-6e44afa7ce6a</tstamps>
+    </comp>
+    <comp ref="U306">
+      <value>74LVC1G04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="PartNumber">800289-101</field>
+      </fields>
+      <libsource lib="custom" part="74LVC1G04" description="Single Schmitt NOT Gate, Low-Voltage CMOS"/>
+      <property name="PartNumber" value="800289-101"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>cd784a67-0354-45cf-a929-f858539b19db</tstamps>
+    </comp>
+    <comp ref="U307">
+      <value>Si5351</value>
+      <footprint>mods:MSOP-10-SAR</footprint>
+      <fields>
+        <field name="PartNumber">800288-101</field>
+      </fields>
+      <libsource lib="custom" part="Si5351" description=""/>
+      <property name="PartNumber" value="800288-101"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>618e375d-0021-473a-91d7-cbe2a4e7b867</tstamps>
+    </comp>
+    <comp ref="U308">
+      <value>74LVC1G04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="PartNumber">800289-101</field>
+      </fields>
+      <libsource lib="custom" part="74LVC1G04" description="Single Schmitt NOT Gate, Low-Voltage CMOS"/>
+      <property name="PartNumber" value="800289-101"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>a6a63f01-4b66-4c86-b60e-8c3b7332711d</tstamps>
+    </comp>
+    <comp ref="X301">
+      <value>OSC-ABRACON-ATX-11</value>
+      <footprint>Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm_HandSoldering</footprint>
+      <fields>
+        <field name="PartNumber">800291-256</field>
+      </fields>
+      <libsource lib="custom" part="OSC-ABRACON-ATX-11" description=""/>
+      <property name="PartNumber" value="800291-256"/>
+      <property name="Sheetname" value="vfo_clock_gen"/>
+      <property name="Sheetfile" value="vfo_clock_gen.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_clock_gen/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fbac/"/>
+      <tstamps>c131fa0b-535c-4679-ba02-cc194e77270d</tstamps>
+    </comp>
+    <comp ref="C401">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800003-106</field>
+      </fields>
+      <libsource lib="custom" part="C_US" description=""/>
+      <property name="PartNumber" value="800003-106"/>
+      <property name="Sheetname" value="vfo_power_supply"/>
+      <property name="Sheetfile" value="vfo_power_supply.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_power_supply/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fa24/"/>
+      <tstamps>00000000-0000-0000-0000-000061517123</tstamps>
+    </comp>
+    <comp ref="C402">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800003-106</field>
+      </fields>
+      <libsource lib="custom" part="C_US" description=""/>
+      <property name="PartNumber" value="800003-106"/>
+      <property name="Sheetname" value="vfo_power_supply"/>
+      <property name="Sheetfile" value="vfo_power_supply.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_power_supply/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fa24/"/>
+      <tstamps>00000000-0000-0000-0000-0000615164d7</tstamps>
+    </comp>
+    <comp ref="C403">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800003-225</field>
+      </fields>
+      <libsource lib="custom" part="C_US" description=""/>
+      <property name="PartNumber" value="800003-225"/>
+      <property name="Sheetname" value="vfo_power_supply"/>
+      <property name="Sheetfile" value="vfo_power_supply.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_power_supply/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fa24/"/>
+      <tstamps>00000000-0000-0000-0000-0000615155b8</tstamps>
+    </comp>
+    <comp ref="C404">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800003-225</field>
+      </fields>
+      <libsource lib="custom" part="C_US" description=""/>
+      <property name="PartNumber" value="800003-225"/>
+      <property name="Sheetname" value="vfo_power_supply"/>
+      <property name="Sheetfile" value="vfo_power_supply.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_power_supply/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fa24/"/>
+      <tstamps>00000000-0000-0000-0000-00006151ae14</tstamps>
+    </comp>
+    <comp ref="C405">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800238-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800238-104"/>
+      <property name="Sheetname" value="vfo_power_supply"/>
+      <property name="Sheetfile" value="vfo_power_supply.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_power_supply/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fa24/"/>
+      <tstamps>030d2b89-447c-44c1-9a95-d470493c1e25</tstamps>
+    </comp>
+    <comp ref="L401">
+      <value>68uH</value>
+      <footprint>mods:IND-DRUM-7.8MMx5MM</footprint>
+      <fields>
+        <field name="PartNumber">800281-101</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PartNumber" value="800281-101"/>
+      <property name="Sheetname" value="vfo_power_supply"/>
+      <property name="Sheetfile" value="vfo_power_supply.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_power_supply/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fa24/"/>
+      <tstamps>00000000-0000-0000-0000-0000615141d9</tstamps>
+    </comp>
+    <comp ref="R401">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-123</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-123"/>
+      <property name="Sheetname" value="vfo_power_supply"/>
+      <property name="Sheetfile" value="vfo_power_supply.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_power_supply/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fa24/"/>
+      <tstamps>5149edb2-749d-43d4-b529-f85a6c3e2de5</tstamps>
+    </comp>
+    <comp ref="R402">
+      <value>3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-302</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-302"/>
+      <property name="Sheetname" value="vfo_power_supply"/>
+      <property name="Sheetfile" value="vfo_power_supply.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_power_supply/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fa24/"/>
+      <tstamps>825c281a-f3a6-477f-938d-90ff787342a8</tstamps>
+    </comp>
+    <comp ref="U401">
+      <value>R-78E5.0-1.0</value>
+      <footprint>mods:RECom_R-78Ex.x-1.0</footprint>
+      <datasheet>https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf</datasheet>
+      <fields>
+        <field name="PartNumber">800201-500</field>
+      </fields>
+      <libsource lib="custom" part="R-78E5.0-1.0" description="1A Step-Down DC/DC-Regulator, 7-28V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"/>
+      <property name="PartNumber" value="800201-500"/>
+      <property name="Sheetname" value="vfo_power_supply"/>
+      <property name="Sheetfile" value="vfo_power_supply.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_power_supply/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fa24/"/>
+      <tstamps>00000000-0000-0000-0000-000061513296</tstamps>
+    </comp>
+    <comp ref="U402">
+      <value>ME6211A33M3G-N</value>
+      <footprint>mods:SOT23-3-SAR-V2</footprint>
+      <fields>
+        <field name="PartNumber">800187-101</field>
+      </fields>
+      <libsource lib="custom" part="ME6211A33M3G-N" description=""/>
+      <property name="PartNumber" value="800187-101"/>
+      <property name="Sheetname" value="vfo_power_supply"/>
+      <property name="Sheetfile" value="vfo_power_supply.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_power_supply/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fa24/"/>
+      <tstamps>00000000-0000-0000-0000-000061518dee</tstamps>
+    </comp>
+    <comp ref="C501">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800238-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800238-104"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>8d34ec17-af2a-4532-94ec-9b774cb37ee4</tstamps>
+    </comp>
+    <comp ref="C502">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800238-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800238-104"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000614d6505</tstamps>
+    </comp>
+    <comp ref="C503">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800238-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800238-104"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000614d6ed0</tstamps>
+    </comp>
+    <comp ref="C504">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800238-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800238-104"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000614e0b9d</tstamps>
+    </comp>
+    <comp ref="J501">
+      <value>CONN8</value>
+      <footprint>mods:JST_B8B_XH_A</footprint>
+      <fields>
+        <field name="PartNumber">800114-108</field>
+      </fields>
+      <libsource lib="custom" part="CONN8" description=""/>
+      <property name="PartNumber" value="800114-108"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006146a62a</tstamps>
+    </comp>
+    <comp ref="J502">
+      <value>CONN6</value>
+      <footprint>mods:JST_B6B_XH_A</footprint>
+      <fields>
+        <field name="PartNumber">800114-106</field>
+      </fields>
+      <libsource lib="custom" part="CONN6" description=""/>
+      <property name="PartNumber" value="800114-106"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000614f605d</tstamps>
+    </comp>
+    <comp ref="J503">
+      <value>CONN2</value>
+      <footprint>mods:JST_B2B_XH_A</footprint>
+      <fields>
+        <field name="PartNumber">800114-102</field>
+      </fields>
+      <libsource lib="custom" part="CONN2" description=""/>
+      <property name="PartNumber" value="800114-102"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>6aa0c7aa-154b-4cf1-b26b-41c107eb038a</tstamps>
+    </comp>
+    <comp ref="J504">
+      <value>CONN6</value>
+      <footprint>mods:JST_B6B_XH_A</footprint>
+      <fields>
+        <field name="PartNumber">800114-106</field>
+      </fields>
+      <libsource lib="custom" part="CONN6" description=""/>
+      <property name="PartNumber" value="800114-106"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000614ba318</tstamps>
+    </comp>
+    <comp ref="R501">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-332</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-332"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000614a3479</tstamps>
+    </comp>
+    <comp ref="R502">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-332</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-332"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000614a260d</tstamps>
+    </comp>
+    <comp ref="R503">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-332</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-332"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006146dcaf</tstamps>
+    </comp>
+    <comp ref="R504">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-332</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-332"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006146e3d2</tstamps>
+    </comp>
+    <comp ref="R505">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-332</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-332"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006146e697</tstamps>
+    </comp>
+    <comp ref="R506">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-332</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-332"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006146e8da</tstamps>
+    </comp>
+    <comp ref="R507">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-221</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-221"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006147cc53</tstamps>
+    </comp>
+    <comp ref="R508">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-221</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-221"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006147ee61</tstamps>
+    </comp>
+    <comp ref="R509">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-221</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-221"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006147f4b8</tstamps>
+    </comp>
+    <comp ref="R510">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-221</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-221"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006147fba6</tstamps>
+    </comp>
+    <comp ref="R511">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-102</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-102"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006147c169</tstamps>
+    </comp>
+    <comp ref="R512">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-102</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-102"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006147baea</tstamps>
+    </comp>
+    <comp ref="R513">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-330</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-330"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000615c663c</tstamps>
+    </comp>
+    <comp ref="R514">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-102</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-102"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000614a915f</tstamps>
+    </comp>
+    <comp ref="R515">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-102</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-102"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000614a9e4a</tstamps>
+    </comp>
+    <comp ref="R516">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-330</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-330"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000615d2d0c</tstamps>
+    </comp>
+    <comp ref="R517">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-330</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-330"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000615d335f</tstamps>
+    </comp>
+    <comp ref="R518">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-330</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-330"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000615d392e</tstamps>
+    </comp>
+    <comp ref="R519">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-330</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-330"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000614fb29d</tstamps>
+    </comp>
+    <comp ref="R520">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-471</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-471"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006151b88c</tstamps>
+    </comp>
+    <comp ref="R521">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-471</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-471"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006151e0c5</tstamps>
+    </comp>
+    <comp ref="R522">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-123</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-123"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>fdb27c32-7586-42da-b2ea-2823cfb3d5bd</tstamps>
+    </comp>
+    <comp ref="R523">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-332</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-332"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>49415054-d373-4bf5-a4db-6c8d65272c77</tstamps>
+    </comp>
+    <comp ref="R524">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-332</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-332"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006146aea0</tstamps>
+    </comp>
+    <comp ref="R525">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-332</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-332"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006146b70a</tstamps>
+    </comp>
+    <comp ref="R526">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-332</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-332"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006147466b</tstamps>
+    </comp>
+    <comp ref="U501">
+      <value>BLACK_PILL_WE_ACT_STM32F411CEU6</value>
+      <footprint>mods:BLACK_PILL_WE_ACT_STM32F411</footprint>
+      <fields>
+        <field name="PartNumber">800280-101</field>
+      </fields>
+      <libsource lib="custom" part="BLACK_PILL_WE_ACT_STM32F411CEU6" description=""/>
+      <property name="PartNumber" value="800280-101"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-00006146ebef</tstamps>
+    </comp>
+    <comp ref="U502">
+      <value>74LVC1G14</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>/home/srodgers/Datasheets/Nexperia-74AHC_AHCT1G14.pdf</datasheet>
+      <fields>
+        <field name="PartNumber">800199-101</field>
+      </fields>
+      <libsource lib="custom" part="74LVC1G14" description="Single Schmitt NOT Gate, Low-Voltage CMOS"/>
+      <property name="PartNumber" value="800199-101"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000614abdf5</tstamps>
+    </comp>
+    <comp ref="U503">
+      <value>74LVC1G14</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>/home/srodgers/Datasheets/Nexperia-74AHC_AHCT1G14.pdf</datasheet>
+      <fields>
+        <field name="PartNumber">800199-101</field>
+      </fields>
+      <libsource lib="custom" part="74LVC1G14" description="Single Schmitt NOT Gate, Low-Voltage CMOS"/>
+      <property name="PartNumber" value="800199-101"/>
+      <property name="Sheetname" value="vfo_mpu"/>
+      <property name="Sheetfile" value="vfo_mpu.kicad_sch"/>
+      <sheetpath names="/vfo_top/vfo_mpu/" tstamps="/00000000-0000-0000-0000-00006145f9c0/00000000-0000-0000-0000-00006145fae1/"/>
+      <tstamps>00000000-0000-0000-0000-0000614ad3af</tstamps>
+    </comp>
+    <comp ref="C601">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="I2C_Expander"/>
+      <property name="Sheetfile" value="i2c_expander.kicad_sch"/>
+      <sheetpath names="/vfo_top/I2C_Expander/" tstamps="/00000000-0000-0000-0000-00006145f9c0/150e101e-0688-4d0d-9ed9-4274eacc97e0/"/>
+      <tstamps>29453fba-d037-4597-b977-0c7a89a7d5c7</tstamps>
+    </comp>
+    <comp ref="C602">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800063-104</field>
+      </fields>
+      <libsource lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS" description=""/>
+      <property name="PartNumber" value="800063-104"/>
+      <property name="Sheetname" value="I2C_Expander"/>
+      <property name="Sheetfile" value="i2c_expander.kicad_sch"/>
+      <sheetpath names="/vfo_top/I2C_Expander/" tstamps="/00000000-0000-0000-0000-00006145f9c0/150e101e-0688-4d0d-9ed9-4274eacc97e0/"/>
+      <tstamps>0ef72fb1-9a74-4a61-8ab7-5a4a580b8ed0</tstamps>
+    </comp>
+    <comp ref="R601">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-103</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-103"/>
+      <property name="Sheetname" value="I2C_Expander"/>
+      <property name="Sheetfile" value="i2c_expander.kicad_sch"/>
+      <sheetpath names="/vfo_top/I2C_Expander/" tstamps="/00000000-0000-0000-0000-00006145f9c0/150e101e-0688-4d0d-9ed9-4274eacc97e0/"/>
+      <tstamps>f18c02a5-5547-491a-88ba-3ae46155e175</tstamps>
+    </comp>
+    <comp ref="R602">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-103</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-103"/>
+      <property name="Sheetname" value="I2C_Expander"/>
+      <property name="Sheetfile" value="i2c_expander.kicad_sch"/>
+      <sheetpath names="/vfo_top/I2C_Expander/" tstamps="/00000000-0000-0000-0000-00006145f9c0/150e101e-0688-4d0d-9ed9-4274eacc97e0/"/>
+      <tstamps>96516425-ede8-4049-ae62-0e1fbcc1e6ae</tstamps>
+    </comp>
+    <comp ref="R603">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-103</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-103"/>
+      <property name="Sheetname" value="I2C_Expander"/>
+      <property name="Sheetfile" value="i2c_expander.kicad_sch"/>
+      <sheetpath names="/vfo_top/I2C_Expander/" tstamps="/00000000-0000-0000-0000-00006145f9c0/150e101e-0688-4d0d-9ed9-4274eacc97e0/"/>
+      <tstamps>b8dabd0a-1746-40d0-9252-5ce0c7522cc3</tstamps>
+    </comp>
+    <comp ref="R604">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-103</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-103"/>
+      <property name="Sheetname" value="I2C_Expander"/>
+      <property name="Sheetfile" value="i2c_expander.kicad_sch"/>
+      <sheetpath names="/vfo_top/I2C_Expander/" tstamps="/00000000-0000-0000-0000-00006145f9c0/150e101e-0688-4d0d-9ed9-4274eacc97e0/"/>
+      <tstamps>9db47fdb-fbe9-4e9b-8d02-506cf54f4452</tstamps>
+    </comp>
+    <comp ref="R605">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-103</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-103"/>
+      <property name="Sheetname" value="I2C_Expander"/>
+      <property name="Sheetfile" value="i2c_expander.kicad_sch"/>
+      <sheetpath names="/vfo_top/I2C_Expander/" tstamps="/00000000-0000-0000-0000-00006145f9c0/150e101e-0688-4d0d-9ed9-4274eacc97e0/"/>
+      <tstamps>5a05d295-7dd3-4210-bd1c-00d74b557e74</tstamps>
+    </comp>
+    <comp ref="R606">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-103</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-103"/>
+      <property name="Sheetname" value="I2C_Expander"/>
+      <property name="Sheetfile" value="i2c_expander.kicad_sch"/>
+      <sheetpath names="/vfo_top/I2C_Expander/" tstamps="/00000000-0000-0000-0000-00006145f9c0/150e101e-0688-4d0d-9ed9-4274eacc97e0/"/>
+      <tstamps>298adf48-e54c-421e-8ed6-3dd6ead47e26</tstamps>
+    </comp>
+    <comp ref="R607">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-103</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-103"/>
+      <property name="Sheetname" value="I2C_Expander"/>
+      <property name="Sheetfile" value="i2c_expander.kicad_sch"/>
+      <sheetpath names="/vfo_top/I2C_Expander/" tstamps="/00000000-0000-0000-0000-00006145f9c0/150e101e-0688-4d0d-9ed9-4274eacc97e0/"/>
+      <tstamps>ee209d45-7e58-4656-8a42-e6abfb922ddb</tstamps>
+    </comp>
+    <comp ref="R608">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="PartNumber">800235-103</field>
+      </fields>
+      <libsource lib="custom" part="R_US_0805_1%_HS" description=""/>
+      <property name="PartNumber" value="800235-103"/>
+      <property name="Sheetname" value="I2C_Expander"/>
+      <property name="Sheetfile" value="i2c_expander.kicad_sch"/>
+      <sheetpath names="/vfo_top/I2C_Expander/" tstamps="/00000000-0000-0000-0000-00006145f9c0/150e101e-0688-4d0d-9ed9-4274eacc97e0/"/>
+      <tstamps>74f30866-0d52-4558-88d9-da85c982a4ac</tstamps>
+    </comp>
+    <comp ref="U601">
+      <value>PCA9546APW</value>
+      <footprint>mods:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <fields>
+        <field name="PartNumber">800290-101</field>
+      </fields>
+      <libsource lib="custom" part="PCA9546APW" description=""/>
+      <property name="PartNumber" value="800290-101"/>
+      <property name="Sheetname" value="I2C_Expander"/>
+      <property name="Sheetfile" value="i2c_expander.kicad_sch"/>
+      <sheetpath names="/vfo_top/I2C_Expander/" tstamps="/00000000-0000-0000-0000-00006145f9c0/150e101e-0688-4d0d-9ed9-4274eacc97e0/"/>
+      <tstamps>b5997f1e-9cb8-4172-a147-556eeeae1850</tstamps>
+    </comp>
+    <comp ref="U602">
+      <value>24CW640</value>
+      <footprint>mods:SOT23-5-SAR</footprint>
+      <fields>
+        <field name="PartNumber">800284-101</field>
+      </fields>
+      <libsource lib="custom" part="24CW640" description=""/>
+      <property name="PartNumber" value="800284-101"/>
+      <property name="Sheetname" value="I2C_Expander"/>
+      <property name="Sheetfile" value="i2c_expander.kicad_sch"/>
+      <sheetpath names="/vfo_top/I2C_Expander/" tstamps="/00000000-0000-0000-0000-00006145f9c0/150e101e-0688-4d0d-9ed9-4274eacc97e0/"/>
+      <tstamps>a1434e3b-aba4-410a-858d-823582b176a7</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x20">
+      <description>Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x20</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Ferrite">
+      <description>Inductor with ferrite core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Ferrite</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="24CW640">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">24CW640</field>
+        <field name="Footprint">mods:SOT23-5-SAR</field>
+        <field name="PartNumber">800284-101</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="SDA" type="bidirectional"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="74LVC1G04">
+      <description>Single Schmitt NOT Gate, Low-Voltage CMOS</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G04</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="PartNumber">800289-101</field>
+      </fields>
+      <pins>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="74LVC1G14">
+      <description>Single Schmitt NOT Gate, Low-Voltage CMOS</description>
+      <docs>/home/srodgers/Datasheets/Nexperia-74AHC_AHCT1G14.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G14</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">/home/srodgers/Datasheets/Nexperia-74AHC_AHCT1G14.pdf</field>
+        <field name="PartNumber">800199-101</field>
+      </fields>
+      <pins>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="BLACK_PILL_WE_ACT_STM32F411CEU6">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BLACK_PILL_WE_ACT_STM32F411CEU6</field>
+        <field name="PartNumber">800280-101</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B12" type="passive"/>
+        <pin num="2" name="B13" type="passive"/>
+        <pin num="3" name="B14" type="passive"/>
+        <pin num="4" name="B15" type="passive"/>
+        <pin num="5" name="A8" type="passive"/>
+        <pin num="6" name="A9-TX1" type="passive"/>
+        <pin num="7" name="A10-RX1" type="passive"/>
+        <pin num="8" name="A11" type="passive"/>
+        <pin num="9" name="A12" type="passive"/>
+        <pin num="10" name="A15" type="passive"/>
+        <pin num="11" name="B3" type="passive"/>
+        <pin num="12" name="B4" type="passive"/>
+        <pin num="13" name="B5" type="passive"/>
+        <pin num="14" name="SCL1-B6" type="passive"/>
+        <pin num="15" name="SDA1-B7" type="passive"/>
+        <pin num="16" name="B8" type="passive"/>
+        <pin num="17" name="B9" type="passive"/>
+        <pin num="18" name="P5V0" type="power_in"/>
+        <pin num="19" name="GND" type="power_in"/>
+        <pin num="20" name="P3V3_OUT" type="power_out"/>
+        <pin num="21" name="VBATT" type="power_in"/>
+        <pin num="22" name="LED-C13" type="passive"/>
+        <pin num="23" name="C14" type="passive"/>
+        <pin num="24" name="C15" type="passive"/>
+        <pin num="25" name="~{RST}" type="passive"/>
+        <pin num="26" name="A0" type="passive"/>
+        <pin num="27" name="A1" type="passive"/>
+        <pin num="28" name="A2" type="passive"/>
+        <pin num="29" name="A3" type="passive"/>
+        <pin num="30" name="A4" type="passive"/>
+        <pin num="31" name="A5-SCK" type="passive"/>
+        <pin num="32" name="A6-MISO" type="passive"/>
+        <pin num="33" name="A7-MOSI" type="passive"/>
+        <pin num="34" name="B0" type="passive"/>
+        <pin num="35" name="B1" type="passive"/>
+        <pin num="36" name="B2" type="passive"/>
+        <pin num="37" name="B10" type="passive"/>
+        <pin num="38" name="P3V3_OUT" type="power_out"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="P5V0" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="CONN2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN2</field>
+        <field name="PartNumber">800114-102</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="CONN6">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN6</field>
+        <field name="PartNumber">800114-106</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="CONN8">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN8</field>
+        <field name="PartNumber">800114-108</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="CONN_SMA_LAUNCH">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_SMA_LAUNCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="CP_US">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_US</field>
+        <field name="PartNumber">80000X-XXX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="C_US">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_US</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="PartNumber">800063-XXX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="C_US_0805_0.1UF_X7R_10%_50V_HS">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_US_0805_0.1UF_X7R_10%_50V_HS</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="PartNumber">800238-104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="C_US_0805_C0G_NPO_5%_50V_HS">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_US_0805_C0G_NPO_5%_50V_HS</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="PartNumber">800239_XXX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="DIODE_SCHOTTKY">
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CR</field>
+        <field name="Value">DIODE_SCHOTTKY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="FB0805">
+      <fields>
+        <field name="Reference">E</field>
+        <field name="Value">FB0805</field>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</field>
+        <field name="PartNumber">80000X-XXX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="ME6211A33M3G-N">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ME6211A33M3G-N</field>
+        <field name="Footprint">mods:SOT23-3-SAR-V2</field>
+        <field name="PartNumber">800187-101</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="OSC-ABRACON-ATX-11">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">OSC-ABRACON-ATX-11</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="OUT" type="input"/>
+        <pin num="4" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="PCA9546APW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCA9546APW</field>
+        <field name="Footprint">mods:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="PartNumber">800290-101</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="RESETN" type="input"/>
+        <pin num="4" name="SD0" type="bidirectional"/>
+        <pin num="5" name="SC0" type="output"/>
+        <pin num="6" name="SD1" type="bidirectional"/>
+        <pin num="7" name="SC1" type="input"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="SD2" type="bidirectional"/>
+        <pin num="10" name="SC2" type="input"/>
+        <pin num="11" name="SD3" type="bidirectional"/>
+        <pin num="12" name="SC3" type="output"/>
+        <pin num="13" name="A2" type="input"/>
+        <pin num="14" name="SCL" type="input"/>
+        <pin num="15" name="SDA" type="bidirectional"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="R-78E5.0-1.0">
+      <description>1A Step-Down DC/DC-Regulator, 7-28V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3</description>
+      <docs>https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*RECOM*R*78E*0.5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R-78E5.0-1.0</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT</field>
+        <field name="Datasheet">https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf</field>
+        <field name="PartNumber">800201-500</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="R_US">
+      <footprints>
+        <fp>R?</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="PartNumber">800XXX-XXX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="R_US_0805_1%_HS">
+      <footprints>
+        <fp>R?</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US_0805_1%_HS</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="PartNumber">800235-XXX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="SI2306">
+      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23-3</description>
+      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SI2306</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.vishay.com/docs/70209/70209.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom" part="Si5351">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Si5351</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="XA" type="passive"/>
+        <pin num="3" name="XB" type="passive"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="SDA" type="tri_state"/>
+        <pin num="6" name="CLK2" type="output"/>
+        <pin num="7" name="VDDO" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="CLK1" type="output"/>
+        <pin num="10" name="CLK0" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="custom">
+      <uri>/home/srodgers/projects/kicad/libs6-custom/kicad-symbols/custom.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/vfo_top/CS_DISP_3V3">
+      <node ref="J201" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U501" pin="5" pinfunction="A8" pintype="passive"/>
+    </net>
+    <net code="2" name="/vfo_top/ENA_BL">
+      <node ref="Q201" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R502" pin="2" pintype="passive"/>
+      <node ref="U501" pin="8" pinfunction="A11" pintype="passive"/>
+    </net>
+    <net code="3" name="/vfo_top/ENA_FAN">
+      <node ref="Q202" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R501" pin="2" pintype="passive"/>
+      <node ref="U501" pin="11" pinfunction="B3" pintype="passive"/>
+    </net>
+    <net code="4" name="/vfo_top/FAN_CATH">
+      <node ref="CR201" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R202" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/vfo_top/FAN_PWR">
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="J202" pin="2" pintype="passive"/>
+      <node ref="R202" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/vfo_top/FAN_RTN">
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="J202" pin="1" pintype="passive"/>
+      <node ref="Q202" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="7" name="/vfo_top/MOSI_DISP_3V3">
+      <node ref="J201" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U501" pin="33" pinfunction="A7-MOSI" pintype="passive"/>
+    </net>
+    <net code="8" name="/vfo_top/P3V3">
+      <node ref="C404" pin="1" pintype="passive"/>
+      <node ref="C502" pin="1" pintype="passive"/>
+      <node ref="C503" pin="1" pintype="passive"/>
+      <node ref="C601" pin="1" pintype="passive"/>
+      <node ref="C602" pin="1" pintype="passive"/>
+      <node ref="J201" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R511" pin="2" pintype="passive"/>
+      <node ref="R512" pin="2" pintype="passive"/>
+      <node ref="R514" pin="1" pintype="passive"/>
+      <node ref="R515" pin="1" pintype="passive"/>
+      <node ref="R526" pin="1" pintype="passive"/>
+      <node ref="R601" pin="1" pintype="passive"/>
+      <node ref="R602" pin="1" pintype="passive"/>
+      <node ref="R603" pin="1" pintype="passive"/>
+      <node ref="R604" pin="1" pintype="passive"/>
+      <node ref="R605" pin="1" pintype="passive"/>
+      <node ref="R606" pin="1" pintype="passive"/>
+      <node ref="R607" pin="1" pintype="passive"/>
+      <node ref="R608" pin="1" pintype="passive"/>
+      <node ref="U402" pin="2" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U502" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U503" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U601" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U602" pin="4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="9" name="/vfo_top/P5V0">
+      <node ref="C303" pin="1" pintype="passive"/>
+      <node ref="C308" pin="1" pintype="passive"/>
+      <node ref="C312" pin="1" pintype="passive"/>
+      <node ref="C401" pin="1" pintype="passive"/>
+      <node ref="C504" pin="1" pintype="passive"/>
+      <node ref="J201" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J504" pin="6" pintype="passive"/>
+      <node ref="R524" pin="1" pintype="passive"/>
+      <node ref="R525" pin="1" pintype="passive"/>
+      <node ref="U301" pin="3" pinfunction="IN" pintype="power_in"/>
+      <node ref="U304" pin="3" pinfunction="IN" pintype="power_in"/>
+      <node ref="U305" pin="3" pinfunction="IN" pintype="power_in"/>
+      <node ref="U401" pin="3" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U402" pin="3" pinfunction="IN" pintype="power_in"/>
+      <node ref="U501" pin="18" pinfunction="P5V0" pintype="power_in"/>
+      <node ref="U501" pin="40" pinfunction="P5V0" pintype="power_in"/>
+    </net>
+    <net code="10" name="/vfo_top/P13V8">
+      <node ref="C203" pin="1" pintype="passive"/>
+      <node ref="C206" pin="1" pintype="passive"/>
+      <node ref="C402" pin="1" pintype="passive"/>
+      <node ref="CR201" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="E202" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L401" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R401" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/vfo_top/P13V8_IN">
+      <node ref="C205" pin="1" pintype="passive"/>
+      <node ref="E202" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J205" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/vfo_top/RESETN">
+      <node ref="U501" pin="25" pinfunction="~{RST}" pintype="passive"/>
+      <node ref="U601" pin="3" pinfunction="RESETN" pintype="input"/>
+    </net>
+    <net code="13" name="/vfo_top/SCK_DISP_3V3">
+      <node ref="J201" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R519" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="/vfo_top/SCL">
+      <node ref="R511" pin="1" pintype="passive"/>
+      <node ref="U501" pin="14" pinfunction="SCL1-B6" pintype="passive"/>
+      <node ref="U601" pin="14" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="15" name="/vfo_top/SCL_EXT">
+      <node ref="E204" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R601" pin="2" pintype="passive"/>
+      <node ref="U601" pin="5" pinfunction="SC0" pintype="output"/>
+    </net>
+    <net code="16" name="/vfo_top/SCL_SI5351A">
+      <node ref="R603" pin="2" pintype="passive"/>
+      <node ref="U303" pin="4" pinfunction="SCL" pintype="input"/>
+      <node ref="U601" pin="7" pinfunction="SC1" pintype="input"/>
+    </net>
+    <net code="17" name="/vfo_top/SCL_SI5351B">
+      <node ref="R605" pin="2" pintype="passive"/>
+      <node ref="U307" pin="4" pinfunction="SCL" pintype="input"/>
+      <node ref="U601" pin="10" pinfunction="SC2" pintype="input"/>
+    </net>
+    <net code="18" name="/vfo_top/SDA">
+      <node ref="R512" pin="1" pintype="passive"/>
+      <node ref="U501" pin="15" pinfunction="SDA1-B7" pintype="passive"/>
+      <node ref="U601" pin="15" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/vfo_top/SDA_EXT">
+      <node ref="E205" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R602" pin="2" pintype="passive"/>
+      <node ref="U601" pin="4" pinfunction="SD0" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/vfo_top/SDA_SI5351A">
+      <node ref="R604" pin="2" pintype="passive"/>
+      <node ref="U303" pin="5" pinfunction="SDA" pintype="tri_state"/>
+      <node ref="U601" pin="6" pinfunction="SD1" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/vfo_top/SDA_SI5351B">
+      <node ref="R606" pin="2" pintype="passive"/>
+      <node ref="U307" pin="5" pinfunction="SDA" pintype="tri_state"/>
+      <node ref="U601" pin="9" pinfunction="SD2" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/vfo_top/VMON">
+      <node ref="C405" pin="1" pintype="passive"/>
+      <node ref="R401" pin="2" pintype="passive"/>
+      <node ref="R402" pin="1" pintype="passive"/>
+      <node ref="U501" pin="30" pinfunction="A4" pintype="passive"/>
+    </net>
+    <net code="23" name="/vfo_top/vfo_clock_gen/P3V3_CLKA">
+      <node ref="C302" pin="1" pintype="passive"/>
+      <node ref="C305" pin="1" pintype="passive"/>
+      <node ref="E302" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U303" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U303" pin="7" pinfunction="VDDO" pintype="power_in"/>
+    </net>
+    <net code="24" name="/vfo_top/vfo_clock_gen/P3V3_CLKA_LDO">
+      <node ref="C309" pin="1" pintype="passive"/>
+      <node ref="C310" pin="1" pintype="passive"/>
+      <node ref="E302" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U304" pin="2" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="25" name="/vfo_top/vfo_clock_gen/P3V3_CLKB">
+      <node ref="C316" pin="1" pintype="passive"/>
+      <node ref="C318" pin="1" pintype="passive"/>
+      <node ref="E303" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U307" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U307" pin="7" pinfunction="VDDO" pintype="power_in"/>
+    </net>
+    <net code="26" name="/vfo_top/vfo_clock_gen/P3V3_CLKB_LDO">
+      <node ref="C313" pin="1" pintype="passive"/>
+      <node ref="C314" pin="1" pintype="passive"/>
+      <node ref="E303" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U305" pin="2" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="27" name="/vfo_top/vfo_clock_gen/P3V3_OSC">
+      <node ref="C306" pin="1" pintype="passive"/>
+      <node ref="C307" pin="1" pintype="passive"/>
+      <node ref="C311" pin="1" pintype="passive"/>
+      <node ref="E301" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="E304" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="E305" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="E306" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U301" pin="2" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="28" name="/vfo_top/vfo_mpu/C1_KP_3V3">
+      <node ref="R507" pin="2" pintype="passive"/>
+      <node ref="U501" pin="1" pinfunction="B12" pintype="passive"/>
+    </net>
+    <net code="29" name="/vfo_top/vfo_mpu/C2_KP_3V3">
+      <node ref="R508" pin="2" pintype="passive"/>
+      <node ref="U501" pin="2" pinfunction="B13" pintype="passive"/>
+    </net>
+    <net code="30" name="/vfo_top/vfo_mpu/C3_KP_3V3">
+      <node ref="R509" pin="2" pintype="passive"/>
+      <node ref="U501" pin="3" pinfunction="B14" pintype="passive"/>
+    </net>
+    <net code="31" name="/vfo_top/vfo_mpu/C4_KP_3V3">
+      <node ref="R510" pin="2" pintype="passive"/>
+      <node ref="U501" pin="4" pinfunction="B15" pintype="passive"/>
+    </net>
+    <net code="32" name="/vfo_top/vfo_mpu/ENC_A_5V0">
+      <node ref="J504" pin="5" pintype="passive"/>
+      <node ref="R524" pin="2" pintype="passive"/>
+      <node ref="U502" pin="2" pintype="input"/>
+    </net>
+    <net code="33" name="/vfo_top/vfo_mpu/ENC_B_5V0">
+      <node ref="J504" pin="4" pintype="passive"/>
+      <node ref="R525" pin="2" pintype="passive"/>
+      <node ref="U503" pin="2" pintype="input"/>
+    </net>
+    <net code="34" name="/vfo_top/vfo_mpu/I_ENC_3V3_N">
+      <node ref="U501" pin="34" pinfunction="B0" pintype="passive"/>
+      <node ref="U502" pin="4" pintype="output"/>
+    </net>
+    <net code="35" name="/vfo_top/vfo_mpu/PB_ENC_3V3_N">
+      <node ref="J504" pin="3" pintype="passive"/>
+      <node ref="R526" pin="2" pintype="passive"/>
+      <node ref="U501" pin="36" pinfunction="B2" pintype="passive"/>
+    </net>
+    <net code="36" name="/vfo_top/vfo_mpu/Q_ENC_3V3_N">
+      <node ref="U501" pin="35" pinfunction="B1" pintype="passive"/>
+      <node ref="U503" pin="4" pintype="output"/>
+    </net>
+    <net code="37" name="/vfo_top/vfo_mpu/R1_KP_3V3">
+      <node ref="R513" pin="1" pintype="passive"/>
+      <node ref="U501" pin="12" pinfunction="B4" pintype="passive"/>
+    </net>
+    <net code="38" name="/vfo_top/vfo_mpu/R2_KP_3V3">
+      <node ref="R516" pin="1" pintype="passive"/>
+      <node ref="U501" pin="13" pinfunction="B5" pintype="passive"/>
+    </net>
+    <net code="39" name="/vfo_top/vfo_mpu/R3_KP_3V3">
+      <node ref="R517" pin="1" pintype="passive"/>
+      <node ref="U501" pin="16" pinfunction="B8" pintype="passive"/>
+    </net>
+    <net code="40" name="/vfo_top/vfo_mpu/R4_KP_3V3">
+      <node ref="R518" pin="1" pintype="passive"/>
+      <node ref="U501" pin="17" pinfunction="B9" pintype="passive"/>
+    </net>
+    <net code="41" name="/vfo_top/vfo_mpu/RXD_UART_3V3">
+      <node ref="R521" pin="2" pintype="passive"/>
+      <node ref="U501" pin="7" pinfunction="A10-RX1" pintype="passive"/>
+    </net>
+    <net code="42" name="/vfo_top/vfo_mpu/TXD_UART_3V3">
+      <node ref="R520" pin="2" pintype="passive"/>
+      <node ref="U501" pin="6" pinfunction="A9-TX1" pintype="passive"/>
+    </net>
+    <net code="43" name="/vfo_top/vfo_power_supply/P13V8_F">
+      <node ref="C403" pin="1" pintype="passive"/>
+      <node ref="L401" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U401" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="44" name="/vfo_top/~{PTT}">
+      <node ref="E201" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R514" pin="2" pintype="passive"/>
+      <node ref="U501" pin="37" pinfunction="B10" pintype="passive"/>
+    </net>
+    <net code="45" name="/vfo_top/~{TUNE}">
+      <node ref="E203" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R515" pin="2" pintype="passive"/>
+      <node ref="U501" pin="27" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="46" name="GND">
+      <node ref="C202" pin="2" pintype="passive"/>
+      <node ref="C203" pin="2" pintype="passive"/>
+      <node ref="C204" pin="2" pintype="passive"/>
+      <node ref="C205" pin="2" pintype="passive"/>
+      <node ref="C206" pin="2" pintype="passive"/>
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C302" pin="2" pintype="passive"/>
+      <node ref="C303" pin="2" pintype="passive"/>
+      <node ref="C305" pin="2" pintype="passive"/>
+      <node ref="C306" pin="2" pintype="passive"/>
+      <node ref="C307" pin="2" pintype="passive"/>
+      <node ref="C308" pin="2" pintype="passive"/>
+      <node ref="C309" pin="2" pintype="passive"/>
+      <node ref="C310" pin="2" pintype="passive"/>
+      <node ref="C311" pin="2" pintype="passive"/>
+      <node ref="C312" pin="2" pintype="passive"/>
+      <node ref="C313" pin="2" pintype="passive"/>
+      <node ref="C314" pin="2" pintype="passive"/>
+      <node ref="C315" pin="2" pintype="passive"/>
+      <node ref="C316" pin="2" pintype="passive"/>
+      <node ref="C318" pin="2" pintype="passive"/>
+      <node ref="C319" pin="2" pintype="passive"/>
+      <node ref="C320" pin="2" pintype="passive"/>
+      <node ref="C322" pin="2" pintype="passive"/>
+      <node ref="C401" pin="2" pintype="passive"/>
+      <node ref="C402" pin="2" pintype="passive"/>
+      <node ref="C403" pin="2" pintype="passive"/>
+      <node ref="C404" pin="2" pintype="passive"/>
+      <node ref="C405" pin="2" pintype="passive"/>
+      <node ref="C501" pin="2" pintype="passive"/>
+      <node ref="C502" pin="2" pintype="passive"/>
+      <node ref="C503" pin="2" pintype="passive"/>
+      <node ref="C504" pin="2" pintype="passive"/>
+      <node ref="C601" pin="2" pintype="passive"/>
+      <node ref="C602" pin="2" pintype="passive"/>
+      <node ref="J201" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J201" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J203" pin="1" pintype="passive"/>
+      <node ref="J204" pin="1" pintype="passive"/>
+      <node ref="J205" pin="7" pintype="passive"/>
+      <node ref="J205" pin="8" pintype="passive"/>
+      <node ref="J301" pin="1" pintype="passive"/>
+      <node ref="J301" pin="3" pintype="passive"/>
+      <node ref="J301" pin="4" pintype="passive"/>
+      <node ref="J301" pin="5" pintype="passive"/>
+      <node ref="J302" pin="1" pintype="passive"/>
+      <node ref="J302" pin="3" pintype="passive"/>
+      <node ref="J302" pin="4" pintype="passive"/>
+      <node ref="J302" pin="5" pintype="passive"/>
+      <node ref="J303" pin="1" pintype="passive"/>
+      <node ref="J303" pin="3" pintype="passive"/>
+      <node ref="J303" pin="4" pintype="passive"/>
+      <node ref="J303" pin="5" pintype="passive"/>
+      <node ref="J304" pin="1" pintype="passive"/>
+      <node ref="J304" pin="3" pintype="passive"/>
+      <node ref="J304" pin="4" pintype="passive"/>
+      <node ref="J304" pin="5" pintype="passive"/>
+      <node ref="J502" pin="1" pintype="passive"/>
+      <node ref="J503" pin="1" pintype="passive"/>
+      <node ref="J504" pin="1" pintype="passive"/>
+      <node ref="J504" pin="2" pintype="passive"/>
+      <node ref="MH201" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="MH202" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="MH203" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="MH204" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="Q201" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q202" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R302" pin="2" pintype="passive"/>
+      <node ref="R303" pin="2" pintype="passive"/>
+      <node ref="R305" pin="2" pintype="passive"/>
+      <node ref="R306" pin="2" pintype="passive"/>
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="R501" pin="1" pintype="passive"/>
+      <node ref="R502" pin="1" pintype="passive"/>
+      <node ref="R503" pin="1" pintype="passive"/>
+      <node ref="R504" pin="1" pintype="passive"/>
+      <node ref="R505" pin="1" pintype="passive"/>
+      <node ref="R506" pin="1" pintype="passive"/>
+      <node ref="R523" pin="2" pintype="passive"/>
+      <node ref="U301" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U302" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U303" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U304" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U305" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U306" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U307" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U308" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U401" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U402" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U501" pin="19" pinfunction="GND" pintype="power_in"/>
+      <node ref="U501" pin="39" pinfunction="GND" pintype="power_in"/>
+      <node ref="U502" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U503" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U601" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U601" pin="13" pinfunction="A2" pintype="input"/>
+      <node ref="U601" pin="2" pinfunction="A1" pintype="input"/>
+      <node ref="U601" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U602" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="X301" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="X301" pin="2" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(C202-Pad1)">
+      <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="E201" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J203" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(C204-Pad1)">
+      <node ref="C204" pin="1" pintype="passive"/>
+      <node ref="E203" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J204" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(C301-Pad1)">
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="E301" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U302" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="50" name="Net-(C304-Pad1)">
+      <node ref="C304" pin="1" pintype="passive"/>
+      <node ref="R301" pin="2" pintype="passive"/>
+      <node ref="R303" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(C304-Pad2)">
+      <node ref="C304" pin="2" pintype="passive"/>
+      <node ref="U303" pin="2" pinfunction="XA" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(C315-Pad1)">
+      <node ref="C315" pin="1" pintype="passive"/>
+      <node ref="E304" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U306" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="53" name="Net-(C317-Pad1)">
+      <node ref="C317" pin="1" pintype="passive"/>
+      <node ref="R304" pin="2" pintype="passive"/>
+      <node ref="R306" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(C317-Pad2)">
+      <node ref="C317" pin="2" pintype="passive"/>
+      <node ref="U307" pin="2" pinfunction="XA" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(C319-Pad1)">
+      <node ref="C319" pin="1" pintype="passive"/>
+      <node ref="E305" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X301" pin="4" pinfunction="VDD" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(C320-Pad1)">
+      <node ref="C320" pin="1" pintype="passive"/>
+      <node ref="E306" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U308" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="57" name="Net-(C321-Pad1)">
+      <node ref="C321" pin="1" pintype="passive"/>
+      <node ref="R308" pin="2" pintype="passive"/>
+      <node ref="U308" pin="2" pintype="input"/>
+    </net>
+    <net code="58" name="Net-(C321-Pad2)">
+      <node ref="C321" pin="2" pintype="passive"/>
+      <node ref="X301" pin="3" pinfunction="OUT" pintype="input"/>
+    </net>
+    <net code="59" name="Net-(C322-Pad1)">
+      <node ref="C322" pin="1" pintype="passive"/>
+      <node ref="R308" pin="1" pintype="passive"/>
+      <node ref="R309" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(C501-Pad1)">
+      <node ref="C501" pin="1" pintype="passive"/>
+      <node ref="R522" pin="2" pintype="passive"/>
+      <node ref="R523" pin="1" pintype="passive"/>
+      <node ref="U501" pin="26" pinfunction="A0" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(E204-Pad1)">
+      <node ref="E204" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J205" pin="5" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(E205-Pad1)">
+      <node ref="E205" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J205" pin="6" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(J201-Pad20)">
+      <node ref="J201" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="R201" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(J301-Pad2)">
+      <node ref="J301" pin="2" pintype="passive"/>
+      <node ref="U303" pin="6" pinfunction="CLK2" pintype="output"/>
+    </net>
+    <net code="65" name="Net-(J302-Pad2)">
+      <node ref="J302" pin="2" pintype="passive"/>
+      <node ref="U303" pin="10" pinfunction="CLK0" pintype="output"/>
+    </net>
+    <net code="66" name="Net-(J303-Pad2)">
+      <node ref="J303" pin="2" pintype="passive"/>
+      <node ref="U307" pin="6" pinfunction="CLK2" pintype="output"/>
+    </net>
+    <net code="67" name="Net-(J304-Pad2)">
+      <node ref="J304" pin="2" pintype="passive"/>
+      <node ref="U307" pin="10" pinfunction="CLK0" pintype="output"/>
+    </net>
+    <net code="68" name="Net-(J501-Pad1)">
+      <node ref="J501" pin="1" pintype="passive"/>
+      <node ref="R506" pin="2" pintype="passive"/>
+      <node ref="R513" pin="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(J501-Pad2)">
+      <node ref="J501" pin="2" pintype="passive"/>
+      <node ref="R505" pin="2" pintype="passive"/>
+      <node ref="R516" pin="2" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(J501-Pad3)">
+      <node ref="J501" pin="3" pintype="passive"/>
+      <node ref="R504" pin="2" pintype="passive"/>
+      <node ref="R517" pin="2" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(J501-Pad4)">
+      <node ref="J501" pin="4" pintype="passive"/>
+      <node ref="R503" pin="2" pintype="passive"/>
+      <node ref="R518" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(J501-Pad5)">
+      <node ref="J501" pin="5" pintype="passive"/>
+      <node ref="R507" pin="1" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(J501-Pad6)">
+      <node ref="J501" pin="6" pintype="passive"/>
+      <node ref="R508" pin="1" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(J501-Pad7)">
+      <node ref="J501" pin="7" pintype="passive"/>
+      <node ref="R509" pin="1" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(J501-Pad8)">
+      <node ref="J501" pin="8" pintype="passive"/>
+      <node ref="R510" pin="1" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(J502-Pad4)">
+      <node ref="J502" pin="4" pintype="passive"/>
+      <node ref="R521" pin="1" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(J502-Pad5)">
+      <node ref="J502" pin="5" pintype="passive"/>
+      <node ref="R520" pin="1" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(J503-Pad2)">
+      <node ref="J503" pin="2" pintype="passive"/>
+      <node ref="R522" pin="1" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(Q201-Pad3)">
+      <node ref="Q201" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R201" pin="2" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(R301-Pad1)">
+      <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="R302" pin="1" pintype="passive"/>
+      <node ref="U302" pin="4" pintype="output"/>
+    </net>
+    <net code="81" name="Net-(R304-Pad1)">
+      <node ref="R304" pin="1" pintype="passive"/>
+      <node ref="R305" pin="1" pintype="passive"/>
+      <node ref="U306" pin="4" pintype="output"/>
+    </net>
+    <net code="82" name="Net-(R307-Pad1)">
+      <node ref="R307" pin="1" pintype="passive"/>
+      <node ref="U302" pin="2" pintype="input"/>
+      <node ref="U306" pin="2" pintype="input"/>
+    </net>
+    <net code="83" name="Net-(R307-Pad2)">
+      <node ref="R307" pin="2" pintype="passive"/>
+      <node ref="R309" pin="2" pintype="passive"/>
+      <node ref="U308" pin="4" pintype="output"/>
+    </net>
+    <net code="84" name="Net-(R519-Pad1)">
+      <node ref="R519" pin="1" pintype="passive"/>
+      <node ref="U501" pin="31" pinfunction="A5-SCK" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(R607-Pad2)">
+      <node ref="R607" pin="2" pintype="passive"/>
+      <node ref="U601" pin="12" pinfunction="SC3" pintype="output"/>
+      <node ref="U602" pin="1" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="86" name="Net-(R608-Pad2)">
+      <node ref="R608" pin="2" pintype="passive"/>
+      <node ref="U601" pin="11" pinfunction="SD3" pintype="bidirectional"/>
+      <node ref="U602" pin="3" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="unconnected-(J201-Pad3)">
+      <node ref="J201" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(J201-Pad7)">
+      <node ref="J201" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(J201-Pad8)">
+      <node ref="J201" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(J201-Pad9)">
+      <node ref="J201" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(J201-Pad10)">
+      <node ref="J201" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(J201-Pad11)">
+      <node ref="J201" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(J201-Pad12)">
+      <node ref="J201" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(J201-Pad13)">
+      <node ref="J201" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(J201-Pad14)">
+      <node ref="J201" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(J201-Pad16)">
+      <node ref="J201" pin="16" pinfunction="Pin_16" pintype="passive+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(J201-Pad17)">
+      <node ref="J201" pin="17" pinfunction="Pin_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(J201-Pad18)">
+      <node ref="J201" pin="18" pinfunction="Pin_18" pintype="passive+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(J205-Pad2)">
+      <node ref="J205" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(J205-Pad3)">
+      <node ref="J205" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(J205-Pad4)">
+      <node ref="J205" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(J502-Pad2)">
+      <node ref="J502" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(J502-Pad3)">
+      <node ref="J502" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(J502-Pad6)">
+      <node ref="J502" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U303-Pad3)">
+      <node ref="U303" pin="3" pinfunction="XB" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U303-Pad9)">
+      <node ref="U303" pin="9" pinfunction="CLK1" pintype="output+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U307-Pad3)">
+      <node ref="U307" pin="3" pinfunction="XB" pintype="passive+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U307-Pad9)">
+      <node ref="U307" pin="9" pinfunction="CLK1" pintype="output+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U501-Pad9)">
+      <node ref="U501" pin="9" pinfunction="A12" pintype="passive+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U501-Pad10)">
+      <node ref="U501" pin="10" pinfunction="A15" pintype="passive+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U501-Pad20)">
+      <node ref="U501" pin="20" pinfunction="P3V3_OUT" pintype="power_out+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U501-Pad21)">
+      <node ref="U501" pin="21" pinfunction="VBATT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U501-Pad22)">
+      <node ref="U501" pin="22" pinfunction="LED-C13" pintype="passive+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U501-Pad23)">
+      <node ref="U501" pin="23" pinfunction="C14" pintype="passive+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U501-Pad24)">
+      <node ref="U501" pin="24" pinfunction="C15" pintype="passive+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U501-Pad28)">
+      <node ref="U501" pin="28" pinfunction="A2" pintype="passive+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(U501-Pad29)">
+      <node ref="U501" pin="29" pinfunction="A3" pintype="passive+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U501-Pad32)">
+      <node ref="U501" pin="32" pinfunction="A6-MISO" pintype="passive+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U501-Pad38)">
+      <node ref="U501" pin="38" pinfunction="P3V3_OUT" pintype="power_out+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(U602-Pad5)">
+      <node ref="U602" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
