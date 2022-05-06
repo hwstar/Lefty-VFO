@@ -1,7 +1,7 @@
 # Lefty-VFO
 Lefty Double Conversion Transceiver Motherboard
 
-![Alt text](VFO_rear.jpg)
+![Alt text](VFO_back.jpg)
 
 This is a 4 output VFO module for the lefty transceiver.
 
